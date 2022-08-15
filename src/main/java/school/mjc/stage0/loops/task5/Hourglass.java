@@ -2,9 +2,7 @@ package school.mjc.stage0.loops.task5;
 
 public class Hourglass {
     public void printHourglassOfGivenSize(int height) {
-        if (height == 0) {
-            System.out.println();
-        } else {
+        if (height != 0) {
             int cross = height / 2;
             int cross_2 = 0;
 
